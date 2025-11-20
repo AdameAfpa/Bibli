@@ -1,0 +1,1 @@
+Get-ADUser -Filter * -Properties * | Export-Csv .\users.csv -NoTypeInformation
